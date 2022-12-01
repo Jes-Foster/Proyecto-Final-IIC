@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main(void)
+{
+   //Funcion para leer un archivo 
+	char ARCHIVO;
+
+	
+	printf("COLOQUE LA RUTA O NOMBRE DEL ARCHIVO: ");
+	scanf_s("%s", ARCHIVO);
+	fopen_s(&fp, ARCHIVO, "r"); 
+
+	if (fp == NULL)
+	{
+		printf("No abre");
+	
+	else
+	
+		printf("ya jala ");
+	}
+}
