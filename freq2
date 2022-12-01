@@ -1,0 +1,29 @@
+void main(void)
+{
+	char cadena1[10];
+	char guardacadena[50];
+	char cadena2[30];
+	int contador = 0; 
+
+	printf("cadena 1: ");
+	scanf_s("%s", cadena1,9);
+	strcpy_s(guardacadena);
+	printf("%s", guardacadena[0]);
+	printf("\ncadena 2: ");
+	scanf_s("%s", &cadena2, 9);
+	printf("%s", cadena2);
+
+	
+//agregar un for para que recorra la cadena 
+
+		while ((strcmp(guardacadena[i], cadena2) == 0))
+		{
+
+			printf("\n%s %i", cadena2, i++);
+		}
+
+		printf("\nson diferentes");
+	
+		//JES DEL PASADO 27/11/2022 TU PUEDES 
+
+}
