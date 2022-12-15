@@ -1,0 +1,34 @@
+void main(void)
+{
+   
+	char ARCHIVO;
+	char panum
+	FILE fp; 
+	printf("COLOQUE LA RUTA O NOMBRE DEL ARCHIVO: ");
+	scanf_s("%s", ARCHIVO);
+	fopen_s(fp, ARCHIVO); /
+
+	if (fp == NULL)
+	{
+		printf("No abre");
+	
+	else
+	
+		printf("ya jala ");
+		scanf(ARCHIVO);
+		strcp(guarda ARCHIVO);
+		printf(guarda);
+		printf(tiene i, palabras);
+		//ciclo y for para contar palabras 
+		printf(hay s palabras panum++)
+	    //cerrar archivo
+		
+		//obtener palabras 
+		//imprimir lo obtenido
+		//no se 
+		//contar palabras totales
+		//obtener frecuencia de palabras
+		//Aqui termina
+	}
+}
+NO LO COPIES NO COMPILA 

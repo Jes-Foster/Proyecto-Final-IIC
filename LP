@@ -1,0 +1,29 @@
+
+
+
+void main(void)
+{
+   //Funcion para leer un archivo 
+	char ARCHIVO;
+
+	FILE* fp; //FILE POINTER (PUNTERO DE ARCHIVO)
+	printf("COLOQUE LA RUTA O NOMBRE DEL ARCHIVO: ");
+	scanf_s("%s", ARCHIVO);
+	fopen_s(fp, ARCHIVO, "r"); //r es de lectura (read) // el nombre almacenado se lo da a fp para indicar que es un archivo 
+
+	if (fp == NULL)
+	{
+		printf("No abre");
+	
+	else
+	
+		printf("ya jala ");
+
+		//obtener palabras 
+		//imprimir lo obtenido
+		//no se 
+		//contar palabras totales
+		//obtener frecuencia de palabras
+		//Aqui termina
+	}
+}
